@@ -14,45 +14,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>ch.fortysix</groupId>
-				<artifactId>maven-postman-plugin</artifactId>
-				<version>0.1.6</version>
-				<executions>
-					<execution>
-						<id>mail</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>send-mail</goal>
-						</goals>
-						<inherited>true</inherited>
-						<configuration>
-							<from>nachiketatripathi111qait@gmail.com</from>
-							<subject>Test-Report</subject>
-							<failonerror>false</failonerror>
-							<mailssl>true</mailssl>
-							<mailAltConfig>true</mailAltConfig>
-							<mailhost>smtp.gmail.com</mailhost>
-							<mailport>465</mailport>
-							<mailuser>nachiketatripathi111qait@gmail.com</mailuser>
-							<mailpassword>nachi111.</mailpassword>
-							<htmlMessageFile>./test-output/emailable-report.html</htmlMessageFile>
-							<htmlMessage> <![CDATA[ <p>Hi,</p><br> <p>Attached here the reports of the 
-				Tatoc Automation Report</p> ]]>
-							</htmlMessage>
-							<receivers>
-								<receiver>nachiketatripathi@qainfotech.com</receiver>
-							</receivers>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-
-	</build>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
