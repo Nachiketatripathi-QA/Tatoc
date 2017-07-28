@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15983" started-at="2017-07-28T10:06:08Z" finished-at="2017-07-28T10:06:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15983" started-at="2017-07-28T10:06:08Z" finished-at="2017-07-28T10:06:24Z">
+      <class name="first.com.qait.tatoc.TatocAdvancedDemoTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:first.com.qait.tatoc.TatocAdvancedDemoTest@31fa1761]" name="initializeDriver" is-config="true" duration-ms="2023" started-at="2017-07-28T15:36:08Z" finished-at="2017-07-28T15:36:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="testHoverMenu()[pri:1, instance:first.com.qait.tatoc.TatocAdvancedDemoTest@31fa1761]" name="testHoverMenu" duration-ms="304" started-at="2017-07-28T15:36:10Z" finished-at="2017-07-28T15:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverMenu -->
+        <test-method status="PASS" signature="testQueryGate()[pri:2, instance:first.com.qait.tatoc.TatocAdvancedDemoTest@31fa1761]" name="testQueryGate" duration-ms="1204" started-at="2017-07-28T15:36:11Z" finished-at="2017-07-28T15:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueryGate -->
+        <test-method status="PASS" signature="testRestful()[pri:4, instance:first.com.qait.tatoc.TatocAdvancedDemoTest@31fa1761]" name="testRestful" duration-ms="1740" started-at="2017-07-28T15:36:12Z" finished-at="2017-07-28T15:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestful -->
+        <test-method status="PASS" signature="testFileHandle()[pri:5, instance:first.com.qait.tatoc.TatocAdvancedDemoTest@31fa1761]" name="testFileHandle" duration-ms="7519" started-at="2017-07-28T15:36:14Z" finished-at="2017-07-28T15:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFileHandle -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:first.com.qait.tatoc.TatocAdvancedDemoTest@31fa1761]" name="closeWindow" is-config="true" duration-ms="3159" started-at="2017-07-28T15:36:21Z" finished-at="2017-07-28T15:36:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- first.com.qait.tatoc.TatocAdvancedDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
